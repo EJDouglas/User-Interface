@@ -77,28 +77,21 @@ h1, h2, h3, h4, h5 {
 	background: #F87B99; }
 
 
+	#Start img.alignright {float:right; margin:5px 0 5px 15px;}
 
-
-	<img Start="alignright" src="img/header-img.png" height="225" width="300"
-	alt="Image of a code snippet." .alignright />
 	
 
 
-	.contanierOne {
-		
-		display:inline-block;
-		width:25%;
-		margin: 0 3.5%;
-		height:55vh;
-		
-	  } 
-
-
-	  .contanierTwo div{
+	#skills .contanierOne div{
 		text-align:center;
 		display:inline-block;
 		width:25%;
 		margin: 0 3.5%;
-		height:55vh;
-		vertical-align: top;
-	  } 
+	}
+
+		#skills .contanierTwo div{
+			text-align:center;
+			display:inline-block;
+			width:25%;
+			margin: 0 3.5%; 
+		}
