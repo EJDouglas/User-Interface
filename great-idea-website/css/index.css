@@ -65,33 +65,116 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+
+
+
 .Top nav a {
+	font: 'Titillium Web', sans-serif;
 	margin: 0 10px;
-	border: 1px solid lightgray;
+	border: 1px white;
 	padding: 20px;
 	display: inline-block;
 	border-radius: 20px;
-	color: white;
+	color: solid black;
 	text-decoration: none;
 	margin-bottom: 20px;
-	background: #F87B99; }
+	background: white; }
 
+.Top nav a:hover{
 
-	#Start img.alignright {float:right; margin:5px 0 5px 15px;}
+	color: white; 
+	background: grey; 
+}
 
+	.Header {
+
+	text-align: center; 
+	font-family: 'Bangers', cursive;
+	font-size: 60px; 
+	border: 1px solid lightgray;
+	width: 65%;
+    margin: 10px;
+    float: left;
+    padding: 2%;
 	
 
+}
 
-	#skills .contanierOne div{
-		text-align:center;
-		display:inline-block;
-		width:25%;
-		margin: 0 3.5%;
-	}
+#Luck {
+	
+	font: 'Titillium Web', sans-serif;
+	font-size: 30px;
+    border: 2px black;
+}
 
-		#skills .contanierTwo div{
-			text-align:center;
-			display:inline-block;
-			width:25%;
-			margin: 0 3.5%; 
-		}
+.Image { 
+	
+	float: right;    
+	margin: 0 0 0 15px;;
+	border: 1px solid lightgray;
+
+}
+
+hr { 
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+  } 
+
+  .Features {
+	  display: inline-block;
+	  border: 1px solid white;
+	  width: 35%;
+	  margin: 2%;
+  }
+
+  .About {
+	display: inline-block;
+	border: 1px solid white;
+	width: 35%;
+	margin: 2%;
+  }
+
+  .Services {
+	display: inline-block;
+	border: 1px solid white;
+	width: 28%;
+	margin: 2%;
+}
+
+.Product {
+	display: inline-block;
+	border: 1px solid white;
+	width: 28%;
+	margin: 2%;
+}
+
+.Vision {
+	display: inline-block;
+	border: 1px solid white;
+	width: 28%;
+	margin: 2%;
+}
+
+.containerOne {
+	font-size: 17px; 
+	font: 'Titillium Web', sans-serif;  
+}
+
+.containerTwo {
+	font: 'Titillium Web', sans-serif; 
+}
+
+.middle-img {
+	width: 85%;
+	margin: 2%;
+
+}
+
+.Copyright {
+	text-align: center;
+}
