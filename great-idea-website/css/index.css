@@ -78,7 +78,9 @@ h1, h2, h3, h4, h5 {
 	color: solid black;
 	text-decoration: none;
 	margin-bottom: 20px;
-	background: white; }
+	background: white; 
+	vertical-align: middle;
+}
 
 .Top nav a:hover{
 
@@ -86,12 +88,18 @@ h1, h2, h3, h4, h5 {
 	background: grey; 
 }
 
+
+.Mega {
+
+	text-align: center; 
+}
+
 	.Header {
 
 	text-align: center; 
 	font-family: 'Bangers', cursive;
 	font-size: 60px; 
-	border: 1px solid lightgray;
+	
 	width: 65%;
     margin: 10px;
     float: left;
@@ -111,7 +119,7 @@ h1, h2, h3, h4, h5 {
 	
 	float: right;    
 	margin: 0 0 0 15px;;
-	border: 1px solid lightgray;
+	
 
 }
 
