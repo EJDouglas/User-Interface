@@ -66,7 +66,9 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 
-
+.Top {
+	text-align: center;
+}
 
 .Top nav a {
 	font: 'Titillium Web', sans-serif;
@@ -89,9 +91,11 @@ h1, h2, h3, h4, h5 {
 }
 
 
-.Mega {
+#Mega {
 
 	text-align: center; 
+	margin-top: 70px;
+	margin-bottom: 450px;
 }
 
 	.Header {
@@ -101,10 +105,10 @@ h1, h2, h3, h4, h5 {
 	font-size: 60px; 
 	
 	width: 65%;
-    margin: 10px;
+    margin: 0px;
     float: left;
     padding: 2%;
-	
+	margin-left: 40px;
 
 }
 
@@ -118,8 +122,8 @@ h1, h2, h3, h4, h5 {
 .Image { 
 	
 	float: right;    
-	margin: 0 0 0 15px;;
-	
+	margin-right: 10px;
+	padding-right: 1px;
 
 }
 
@@ -185,4 +189,20 @@ hr {
 
 .Copyright {
 	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 30px;
 }
+
+.Contact {
+
+	margin-bottom: 20px; 
+	margin-top: 50px;
+	margin: 2%;
+}
+
+address p {
+
+	margin-bottom: 20px;
+	margin: 2%;
+}
+
