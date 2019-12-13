@@ -64,3 +64,145 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+.Top {
+	text-align: center;
+}
+
+.Top nav a {
+	font: 'Titillium Web', sans-serif;
+	margin: 0 10px;
+	border: 1px white;
+	padding: 20px;
+	display: inline-block;
+	border-radius: 20px;
+	color: solid black;
+	text-decoration: none;
+	margin-bottom: 20px;
+	background: white; 
+	vertical-align: middle;
+}
+
+.Top nav a:hover{
+
+	color: white; 
+	background: grey; 
+}
+
+
+#Mega {
+
+	text-align: center; 
+	margin-top: 70px;
+	margin-bottom: 450px;
+}
+
+	.Header {
+
+	text-align: center; 
+	font-family: 'Bangers', cursive;
+	font-size: 60px; 
+	
+	width: 65%;
+    margin: 0px;
+    float: left;
+    padding: 2%;
+	margin-left: 40px;
+
+}
+
+#Luck {
+	
+	font: 'Titillium Web', sans-serif;
+	font-size: 30px;
+    border: 2px black;
+}
+
+.Image { 
+	
+	float: right;    
+	margin-right: 10px;
+	padding-right: 1px;
+
+}
+
+hr { 
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+  } 
+
+  .Features {
+	  display: inline-block;
+	  border: 1px solid white;
+	  width: 35%;
+	  margin: 2%;
+  }
+
+  .About {
+	display: inline-block;
+	border: 1px solid white;
+	width: 35%;
+	margin: 2%;
+  }
+
+  .Services {
+	display: inline-block;
+	border: 1px solid white;
+	width: 28%;
+	margin: 2%;
+}
+
+.Product {
+	display: inline-block;
+	border: 1px solid white;
+	width: 28%;
+	margin: 2%;
+}
+
+.Vision {
+	display: inline-block;
+	border: 1px solid white;
+	width: 28%;
+	margin: 2%;
+}
+
+.containerOne {
+	font-size: 17px; 
+	font: 'Titillium Web', sans-serif;  
+}
+
+.containerTwo {
+	font: 'Titillium Web', sans-serif; 
+}
+
+.middle-img {
+	width: 85%;
+	margin: 2%;
+
+}
+
+.Copyright {
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+
+.Contact {
+
+	margin-bottom: 20px; 
+	margin-top: 50px;
+	margin: 2%;
+}
+
+address p {
+
+	margin-bottom: 20px;
+	margin: 2%;
+}
+
