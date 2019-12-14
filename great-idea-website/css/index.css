@@ -82,6 +82,7 @@ h1, h2, h3, h4, h5 {
 	margin-bottom: 20px;
 	background: white; 
 	vertical-align: middle;
+	margin-right: 4%;
 }
 
 .Top nav a:hover{
@@ -93,9 +94,11 @@ h1, h2, h3, h4, h5 {
 
 #Mega {
 
-	text-align: center; 
-	margin-top: 70px;
-	margin-bottom: 450px;
+	/* text-align: center;  */
+	margin-top: 50px;
+	margin-bottom: 50px;
+	/* border: 1px solid grey; */
+
 }
 
 	.Header {
@@ -103,27 +106,37 @@ h1, h2, h3, h4, h5 {
 	text-align: center; 
 	font-family: 'Bangers', cursive;
 	font-size: 60px; 
-	
-	width: 65%;
-    margin: 0px;
-    float: left;
+	/* border: 1px solid grey; */
+	display: inline-block;
+	width: 25%;
+    /* margin: 0px; */
+    /* float: left; */
     padding: 2%;
-	margin-left: 40px;
+	margin-left: 30%;
+	position: relative;
+	bottom: 45px;
 
 }
 
-#Luck {
-	
-	font: 'Titillium Web', sans-serif;
-	font-size: 30px;
-    border: 2px black;
+.Luck {
+  background-color: white; /* Green */
+  border-color: black;
+  color: black;
+  padding: 5px 15px;
+  text-align: center;
+  /* text-decoration: none; */
+  display: inline-block;
+  font-family: 'Bangers', cursive; 
+  font-size: 25px;
 }
 
 .Image { 
 	
-	float: right;    
-	margin-right: 10px;
+	/* float: right;     */
+	/* margin-right: 10px; */
 	padding-right: 1px;
+	/* border: 1px solid grey; */
+	display: inline-block; 
 
 }
 
